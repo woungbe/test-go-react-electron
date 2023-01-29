@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웅비 테스트</title>
+    <script src="./js/common.js"></script>
+</head>
+<body>
+    <!-- 간단한 연습은 하고 가야지 .. 일단 통신부터 해보자 !! -->    
+    <div>
+        <label> 이름부터해보자  </label>
+        <input type="text" name="name">
+        <button onclick="onSubmit()">누르지마세요</button>
+    </div>
+
+    <div>
+        <label> 이름부터해보자  </label>
+        <input type="text" name="name" id="name">
+        <button onclick="onPostTest(document.querySelector(name).value)">누르지마세요</button>
+    </div>
+
+
+    
+    
+</body>
+</html>
